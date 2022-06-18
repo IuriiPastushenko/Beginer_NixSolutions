@@ -1,0 +1,4 @@
+1.	Практика HTML и CSS.
+Зарегистрироваться и пройти курс на https://www.codecademy.com/learn/make-a-website.
+
+I completely studied this course.
