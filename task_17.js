@@ -7,3 +7,15 @@
 //    hexToDec('10') => 16
 //    hexToDec('FF') => 255
 //    hexToDec('-C') => 12
+
+function  hexToDec (number) {
+  
+  return Math.abs(parseInt(number,16).toString(10))
+
+}
+
+console.log(hexToDec('1'));
+console.log(hexToDec('a'));
+console.log(hexToDec('10'));
+console.log(hexToDec('FF'));
+console.log(hexToDec('-C'));
