@@ -1,4 +1,0 @@
-Практика CSS.
-Выберите один из макетов на https://psdrepo.com/tag/free-psd-website-templates/ и создайте адаптивную верстку для шаблона. Создайте репозиторий и загрузите свои изменения.
-
-This task is in the process of realization
