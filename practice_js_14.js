@@ -15,7 +15,7 @@
   // remove("!!!Hi !!hi!!! !hi",5) => "Hi hi!!! !hi"
   // remove("!!!Hi !!hi!!! !hi",100) => "Hi hi hi"
 
-function remove (sentence, number) {
+function remove(sentence, number) {
 
   let array = sentence.split('');
   if (number > array.length) number = array.length; 

@@ -7,7 +7,7 @@ let recommendation;
 let arrayOfWeight = [1, 3, 4, 5, 10];
 let arrayOfRecommendation = ['Пора перекусить', 'Вес в норме', 'Пора на тренировку'];
 
-function giveRecommendation (a) {
+function giveRecommendation(a) {
   if (a < 4) {
     recommendation = arrayOfRecommendation[0];
     return recommendation

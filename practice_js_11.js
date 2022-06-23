@@ -8,7 +8,7 @@
 //    example([4, 4, 7], [3, 9, 3]) => 31
 //    example([15, 20, 25], [10, 30, 25]) => 0
 
-function differentOfArray(a,b){
+function differentOfArray(a,b) {
   return (a.reduce((x,y) => x * y) - b.reduce((x,y) => x * y))
   }
   

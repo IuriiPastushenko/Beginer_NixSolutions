@@ -5,7 +5,7 @@
 //    spacey(['kevin', 'has','no','space']) => [ 'kevin', 'kevinhas', 'kevinhasno', 'kevinhasnospace']
 //    spacey(['this','cheese','has','no','holes']) => ['this','thischeese','thischeesehas','thischeesehasno','thischeesehasnoholes']
 
-function spacey (array) {
+function spacey(array) {
 
     for(let i = 1; i <= (array.length-1); i++)
       array[i] = array[i-1].concat(array[i]);

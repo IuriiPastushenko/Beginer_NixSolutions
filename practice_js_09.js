@@ -4,7 +4,7 @@
 // Пример кода:
 //    example([1, 2, 3, 4]) => 1 * 2 * 3 * 4 = 24
 
-function multiplayMembersOfArray (a){
+function multiplayMembersOfArray(a) {
 return a.reduce((x,y) => x * y)
 }
 

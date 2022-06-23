@@ -6,7 +6,7 @@
 //    between(-2, 2) => [-2, -1, 0, 1, 2]
 //    between(20, 25) => [20, 21, 22, 23, 24, 25]
 
-function arrayOfAllNumbers (a, b) {
+function arrayOfAllNumbers(a, b) {
 
 let result = [];
 for (i = a; i <= b; i++) {

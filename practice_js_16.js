@@ -6,7 +6,7 @@
 // example('Над городом облака, коридоры, берега, проспект, река.', 7) => ['коридоры', 'проспект']
 
 
-function example (sentence,number) {
+function example(sentence,number) {
   
   let array = sentence.split(" ");
 

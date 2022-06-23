@@ -6,7 +6,7 @@
 //    example(['Алексей', 'Семён', 'Василиса', 'Дима', 'Максим', 'Ольга', ]) => ['Алексей','Семён','Василиса','Максим']
 //    example(['Алишер', 'Ольга', ]) => ['Алишер']
 
-function filtrOfName (name) {
+function filtrOfName(name) {
   const unwantedNames = ['Дима','Саша','Ольга','Никита'];
   return name.filter((key) => !unwantedNames.find((x) => x == key))
 }

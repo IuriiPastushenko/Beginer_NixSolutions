@@ -8,7 +8,7 @@
   // maxDiff([16]) => 0
   // maxDiff([]) => 0
 
-function maxDiff (a) {
+function maxDiff(a) {
   if (a.length <= 1) return 0;
   a.sort((a, b) => a - b );;
   return a[a.length - 1] - a[0]
